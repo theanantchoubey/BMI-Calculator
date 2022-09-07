@@ -8,4 +8,4 @@ Special Features:
 3. Suggests Tips on the basis of your BMI
 
 Click on the image to watch the Video :
-[![Watch the video](BMIApp.png)](https://youtu.be/UvUTY7Kk778);
+[![Watch the video](images/BMIApp.png)](https://youtu.be/UvUTY7Kk778);
