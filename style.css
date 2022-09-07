@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Poppins&family=Secular+One&display=swap');
+
+* {
+    font-family: 'Nova Mono', monospace;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.heading {
+    font-family: 'Secular One', sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #fff100;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ed1e79;
+    border-radius: 10px;
+    border: 2px solid #ed1e79;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ed1e79;
+}
+
+/* Navbar  */
+.navbar {
+    background-color: #fff100;
+    color: #ed1e79;
+}
+
+.nav-item {
+    padding-right: 50px;
+}
+
+.nav-link {
+    color: #ed1e79;
+}
+
+.navbar-brand {
+    color: #ed1e79;
+    font-family: 'Combo', cursive;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* Sections */
+.section-yellow {
+    padding: 3% 7%;
+    color: #ed1e79;
+    background-color: #fff100;
+}
+
+.section-pink {
+    color: #fff100;
+    background-color: #ed1e79;
+    padding: 3% 7%;
+}
+
+.section-white {
+    background-color: #fff;
+    color: #745353;
+    padding: 3% 10%;
+}
+
+/* Home Section */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.homeContent {
+    color: #ed1e79;
+    padding: 5% 0;
+    width: 500px;
+}
+
+.home-btn {
+    background-color: #ed1e79;
+    color: #fff100;
+    font-size: 18px;
+}
+
+.homePageImg {
+    right: 5%;
+    position: absolute;
+}
+
+/* FEATURE SECTION  */
+.featureSection {
+    text-align: center;
+}
+
+.featureCardContainer {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featureCard {
+    text-align: center;
+    width: 300px;
+    border-radius: 7px;
+    margin: 10px 20px;
+    padding: 7px 10px;
+}
+
+.featureDesc {
+    color: #fff;
+}
+
+.featureImg {
+    width: 100%;
+}
+
+/* CALCULATE SECTION  */
+.calculateBtn {
+    background-color: #ed1e79;
+    color: #fff;
+}
+
+.calcContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resultSide {
+    border-radius: 12px;
+    text-align: center;
+    color: #fff100;
+}
+
+#greet {
+    color: #fff;
+}
+
+.specTips {
+    justify-content: center;
+    display: none;
+}
+
+.notes {
+    display: none;
+}
+
+.specTips a {
+    margin: 10px 6px;
+    font-size: large;
+    padding: 12px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #fff100;
+    color: #ed1e79;
+}
+.error, .error2{
+    display: none;
+}
+/* TIPS SECTION  */
+.tipsSection {
+    text-align: center;
+}
+
+.tipsCardContainer {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.tipsCardImg {
+    background-color: #fff100;
+    height: 100%;
+}
+
+.tipsCard {
+    color: #fff100;
+    background-color: #ed1e79;
+    border: 2px solid #ed1e79;
+}
+
+.tipsBtn {
+    background-color: transparent;
+    color: #fff100;
+    border: 2px solid #fff100;
+}
+
+.tipsBtn:hover {
+    background-color: #fff100;
+    color: #ed1e79;
+}
+
+/* FOOTER SECTION  */
+#footer {
+    text-align: center;
+}
+
+.social-icon {
+    color: #fff100;
+}
+
+.footer-brand {
+    color: #fff100;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .homePageImg {
+        width: 90%;
+        position: relative;
+    }
+}
